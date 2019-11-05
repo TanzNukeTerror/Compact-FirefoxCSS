@@ -20,11 +20,13 @@
 	padding-inline-start: 2px !important;
 }
 /* Custom bindings.xml in same folder as userChrome, for simple URL */
-#urlbar {
+/* CURRENTLY DOES NOT WORK, so commented-out. */
 /*
+#urlbar {
 	-moz-binding: url("bindings.xml#urlbar") !important;
-*/
 }
+*/
+
 /* Center URL */
 #urlbar-input {
 	text-align: center;
