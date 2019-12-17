@@ -82,12 +82,14 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 	transition: all 200ms !important;
 	min-width: var(--thin-tab-width) !important;
 	max-width: var(--thin-tab-width) !important;
+	z-index: 2;
 }
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]:hover,
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar {
 	transition: all 200ms !important;
 	min-width: var(--wide-tab-width) !important;
 	max-width: var(--wide-tab-width) !important;
+	z-index: 1;
 }
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]:hover {
 	margin-right: calc((var(--wide-tab-width) - var(--thin-tab-width)) * -1) !important;
